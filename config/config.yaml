@@ -1,0 +1,11 @@
+OrderMatcherService:
+  URL: "wss://stream.binance.com:9443/ws"
+
+Order:
+  Type: 1
+  Symbol: "BNBUSDT"
+  Size: 1
+  Price: 270
+
+Database:
+  URL: "sqlite3://data.db"
